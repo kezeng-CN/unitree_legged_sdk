@@ -12,6 +12,6 @@ package unitree_legged_sdk
 */
 import "C"
 
-func callHighCmd() {
+func CallHighCmd() {
 	C.callHighCmd()
 }
